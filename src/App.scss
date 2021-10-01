@@ -1,0 +1,15 @@
+@import 'styles/abstracts/variables';
+
+@import 'styles/base/base';
+@import 'styles/base/typography';
+
+@import 'styles/utils/utils';
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
