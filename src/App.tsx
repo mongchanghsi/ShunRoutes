@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.scss';
+import Header from './components/Header';
+import SideDrawer from './components/SideDrawer';
 
 const App = () => {
   return (
     <div className="App">
-      <header className="App-header">Some React App</header>
+      <Header />
+      <SideDrawer />
     </div>
   );
 };
